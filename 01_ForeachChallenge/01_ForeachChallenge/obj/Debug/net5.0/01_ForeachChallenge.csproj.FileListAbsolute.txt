@@ -1,0 +1,16 @@
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\bin\Debug\net5.0\01_ForeachChallenge.exe
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\bin\Debug\net5.0\01_ForeachChallenge.deps.json
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\bin\Debug\net5.0\01_ForeachChallenge.runtimeconfig.json
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\bin\Debug\net5.0\01_ForeachChallenge.runtimeconfig.dev.json
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\bin\Debug\net5.0\01_ForeachChallenge.dll
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\bin\Debug\net5.0\ref\01_ForeachChallenge.dll
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\bin\Debug\net5.0\01_ForeachChallenge.pdb
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\obj\Debug\net5.0\01_ForeachChallenge.csprojAssemblyReference.cache
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\obj\Debug\net5.0\01_ForeachChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\obj\Debug\net5.0\01_ForeachChallenge.AssemblyInfoInputs.cache
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\obj\Debug\net5.0\01_ForeachChallenge.AssemblyInfo.cs
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\obj\Debug\net5.0\01_ForeachChallenge.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\obj\Debug\net5.0\01_ForeachChallenge.dll
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\obj\Debug\net5.0\ref\01_ForeachChallenge.dll
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\obj\Debug\net5.0\01_ForeachChallenge.pdb
+C:\Users\ASUS\Source\Repos\01_ForeachChallenge\01_ForeachChallenge\obj\Debug\net5.0\01_ForeachChallenge.genruntimeconfig.cache
