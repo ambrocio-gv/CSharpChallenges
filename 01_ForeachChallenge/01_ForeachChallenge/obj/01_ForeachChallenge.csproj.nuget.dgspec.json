@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Source\\Repos\\01_ForeachChallenge\\01_ForeachChallenge\\01_ForeachChallenge.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\UPLOAD TO GITHUB\\C#\\C#_Challenges\\01_ForeachChallenge\\01_ForeachChallenge\\01_ForeachChallenge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Source\\Repos\\01_ForeachChallenge\\01_ForeachChallenge\\01_ForeachChallenge.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\UPLOAD TO GITHUB\\C#\\C#_Challenges\\01_ForeachChallenge\\01_ForeachChallenge\\01_ForeachChallenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Source\\Repos\\01_ForeachChallenge\\01_ForeachChallenge\\01_ForeachChallenge.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\UPLOAD TO GITHUB\\C#\\C#_Challenges\\01_ForeachChallenge\\01_ForeachChallenge\\01_ForeachChallenge.csproj",
         "projectName": "01_ForeachChallenge",
-        "projectPath": "C:\\Users\\ASUS\\Source\\Repos\\01_ForeachChallenge\\01_ForeachChallenge\\01_ForeachChallenge.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\UPLOAD TO GITHUB\\C#\\C#_Challenges\\01_ForeachChallenge\\01_ForeachChallenge\\01_ForeachChallenge.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Source\\Repos\\01_ForeachChallenge\\01_ForeachChallenge\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\UPLOAD TO GITHUB\\C#\\C#_Challenges\\01_ForeachChallenge\\01_ForeachChallenge\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

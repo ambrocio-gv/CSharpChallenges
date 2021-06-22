@@ -15,25 +15,23 @@ namespace TextFileChallenge
     {
 
 
-        private List<UserModel> availableUsers = GlobalConfig.Connection.GetUser_All();
-        private BindingList<UserModel> Users = new BindingList<UserModel>();       
+        private List<UserModel> Users = GlobalConfig.Connection.GetUser_All();
+        //private BindingList<UserModel> Users = new BindingList<UserModel>();       
 
 
 
         public ChallengeForm()
         {
-            InitializeComponent();
-
-            
-            WireUpDropDown();
-           
+            InitializeComponent();            
+            WireUpDropDown();      
 
         }
 
 
         private void WireUpDropDown()
         {
-            Users = new BindingList<UserModel>(availableUsers);
+            //Users = new BindingList<UserModel>(availableUsers);
+            usersListBox.DataSource = null;
             usersListBox.DataSource = Users;
             usersListBox.DisplayMember = nameof(UserModel.DisplayText);
         }
@@ -42,40 +40,28 @@ namespace TextFileChallenge
         {
             if (ValidateForm())
             {
-                //UserModel u = new UserModel();
+                UserModel u = new UserModel();
 
-                //u.FirstName = firstNameText.Text;
-                //u.LastName = lastNameText.Text;
-                //u.Age = Convert.ToInt32(agePicker.Value);
-                //p.CellphoneNumber = txt_Cellphone.Text;
+                u.FirstName = firstNameText.Text;
+                u.LastName = lastNameText.Text;
+                u.Age = Convert.ToInt32(agePicker.Value);
+                u.IsAlive = isAliveCheckbox.Checked;
+                u = GlobalConfig.Connection.CreateUser(u);
 
-                //p = GlobalConfigure.Connection.CreatePerson(p);
+                Users.Add(u);
 
-                //selectedTeamMembers.Add(p);
+                WireUpDropDown();
 
-                //wireUpLists();
-
-
-                //txt_FirstName.Text = "";
-                //txt_LastName.Text = "";
-                //txt_Email.Text = "";
-                //txt_Cellphone.Text = "";
+                firstNameText.Text = "";
+                lastNameText.Text = "";
+                agePicker.Value = 0;
+                isAliveCheckbox.Checked = false;
 
             }
             else
             {
                 MessageBox.Show("This form has invalid info. Please check it and try again");
             }
-
-
-
-        }
-
-        public void UserComplete(UserModel model)
-        {
-           
-            availableUsers.Add(model);
-            WireUpDropDown();
         }
 
         private bool ValidateForm()
@@ -92,21 +78,17 @@ namespace TextFileChallenge
                 output = false;
             }
 
-
-            if(Convert.ToInt32(agePicker.Value) < 0)
+            if(agePicker.Minimum >= agePicker.Value || agePicker.Maximum <= agePicker.Value)
             {
                 output = false;
-            } 
-            
-
+            }          
 
             return output;
         }
 
-
-
-
-
-
+        private void saveListButton_Click(object sender, EventArgs e)
+        {
+            GlobalConfig.Connection.SaveUser_All(Users);
+        }
     }
 }

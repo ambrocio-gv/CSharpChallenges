@@ -11,6 +11,8 @@ namespace TextFileChallenge.DataAccess
     {
         List<UserModel> GetUser_All();
 
+        UserModel CreateUser(UserModel model);
 
+        void SaveUser_All(List<UserModel> users);
     }
 }
