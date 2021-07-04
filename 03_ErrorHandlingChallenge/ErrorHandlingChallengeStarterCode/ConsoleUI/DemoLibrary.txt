@@ -1,0 +1,49 @@
+﻿//CONTENT OF DEMOLIBRARY decompiled DemoLibrary.dll using dotPeek by Jetbrains
+
+//PaymentProcessor.cs
+using System;
+
+namespace DemoLibrary
+{
+  public class PaymentProcessor
+  {
+    public TransactionModel MakePayment(string name, int numberOfItems)
+    {
+      TransactionModel transactionModel = new TransactionModel();
+      transactionModel.TransactionName = name;
+      if (numberOfItems == 10)
+        throw new ArithmeticException("Way too large a number");
+      if (numberOfItems == 9)
+        throw new FormatException("This is an odd format", (Exception) new ArithmeticException("We have a hard time multiplying odd numbers"));
+      if (numberOfItems == 8)
+        throw new FormatException();
+      if (numberOfItems == 6)
+      {
+        transactionModel = (TransactionModel) null;
+      }
+      else
+      {
+        if (numberOfItems == 5)
+          throw new FormatException();
+        if (numberOfItems == 0)
+          throw new IndexOutOfRangeException("You can't buy zero items");
+        transactionModel.TransactionAmount = 4.37M * (Decimal) numberOfItems;
+      }
+      return transactionModel;
+    }
+  }
+}
+
+//TransactionModel.cs
+
+using System;
+
+namespace DemoLibrary
+{
+  public class TransactionModel
+  {
+    public string TransactionName { get; set; }
+
+    public Decimal TransactionAmount { get; set; }
+  }
+}
